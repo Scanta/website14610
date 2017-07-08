@@ -3,4 +3,5 @@ body {
 	background-color: rgb(153, 217, 234);
 	font-size: 20px;
 	color: white;
+	display: block;
 }

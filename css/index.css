@@ -7,10 +7,6 @@ body {
 }
 
 div {
-	
-}
-
-li {
     display: -moz-inline-box; /* Firefox 2 */
 	display: table; /* All */
 	zoom: 1; /* IE6/7 */

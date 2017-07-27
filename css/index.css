@@ -1,7 +1,18 @@
 body {
 	text-align : center;
-	background-color: rgb(153, 217, 234);
+	background-color: rgb(33, 53, 64);
 	font-size: 20px;
 	color: white;
-	display: block;
+	display: inline-block;
+}
+
+div {
+	
+}
+
+li {
+    display: -moz-inline-box; /* Firefox 2 */
+	display: table; /* All */
+	zoom: 1; /* IE6/7 */
+	*display: inline; /* IE magic */
 }
